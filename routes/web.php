@@ -9,5 +9,3 @@ Route::get('/', function () {
 
 Route::get('index',[PostController::class,'index'])->name('post.index');
 Route::get('create', [PostController::class, 'create'])->name('create.post');
-
-heyiugsffihn
